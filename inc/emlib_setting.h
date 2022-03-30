@@ -72,4 +72,9 @@
 	printf("> [%s, %d, in function %s, INFO]:\n"msg,__FILE__,__LINE__,__func__,##__VA_ARGS__)
 #endif
 
+#define DCS_PARAM_USE_INT16
+#define DCS_UNIT_USE_IINT16
+#define DCS_DIFFERENCE_USE_UINT32
+#define _DEBUG
+
 #endif //_FILE_EMLIB_SETTING_H_
